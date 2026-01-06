@@ -1,15 +1,15 @@
 <h1>📡 ITM Debug Output & Serial Monitor Usage</h1>
 
-##📌 Overview
+<h2>📌 Overview</h2>
 
 This repository documents my learning and experimentation with ITM (Instrumentation Trace Macrocell) for debugging in embedded systems.
 The project demonstrates how printf() output can be redirected through ITM and observed using a Serial Monitor / SWV viewer, along with an important detail about buffer flushing.
- 🔍 What is ITM?
+<h2>🔍 What is ITM?</h2>
 
 ITM (Instrumentation Trace Macrocell) is a debugging feature available in ARM Cortex-M cores.
 It allows developers to send debug messages (like printf) through the SWD interface without using UART pins, making it extremely useful during development.
 
-##🖥️ Using printf() with ITM
+<h2>🖥️ Using printf() with ITM</h2>
 
 In this project, printf() is redirected to the ITM stimulus port so that messages appear in the Serial Monitor / SWV console.
 
@@ -17,7 +17,7 @@ However, an important behavior was observed:
 
 printf() output does not appear immediately unless the output buffer is flushed.
 
-###⚠️ Important Note on Buffer Flushing
+<h3>⚠️ Important Note on Buffer Flushing</h3>
 
 When using ITM for printf() debugging, the output is buffered.
 To ensure messages appear in the Serial Monitor, the buffer must be flushed using one of the following methods:
@@ -38,7 +38,7 @@ fflush(stdout);
 
 Without either of these, the Serial Monitor may not display the output.
 
-##🧠 Key Learnings
+<h2>🧠 Key Learnings</h2>
 
 ITM is a powerful alternative to UART-based debugging
 
