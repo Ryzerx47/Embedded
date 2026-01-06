@@ -1,4 +1,5 @@
-#📡 ITM Debug Output & Serial Monitor Usage
+<h1>📡 ITM Debug Output & Serial Monitor Usage</h1>
+
 ##📌 Overview
 
 This repository documents my learning and experimentation with ITM (Instrumentation Trace Macrocell) for debugging in embedded systems.
