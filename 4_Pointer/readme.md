@@ -15,9 +15,11 @@ How to read and write values using pointers
 The goal was to remove confusion between values, addresses, and pointers and understand how C interacts with memory at a low level.
 
 <h2>📂 Code Overview</h2>
-#include <stdio.h>
 
-int main(void){
+
+    #include <stdio.h>
+
+    int main(void){
     char x = 100;
 
     printf("Value of x = %d \n", x);
@@ -31,7 +33,7 @@ int main(void){
     printf("Written value %d", x);
 
     return 0;
-}
+    }
 
 <h2>🔍 Key Concepts Learned</h2>
 
