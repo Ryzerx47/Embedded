@@ -1,5 +1,5 @@
-#Operators in C
-##📘 Overview
+# Operators in C
+## 📘 Overview
 
 In C programming, operators are special symbols used to perform operations on variables and values.
 Today, I learned about the following types of operators:
@@ -18,7 +18,7 @@ Operator Precedence and Associativity
 
 Understanding precedence and associativity is crucial to avoid logical errors in expressions.
 
-###🔹 1. Unary Operators
+### 🔹 1. Unary Operators
 
 Unary operators operate on a single operand.
 
@@ -44,7 +44,7 @@ Example
           return 0;
           }
 
-###🔹 2. Binary Operators
+### 🔹 2. Binary Operators
 
 Binary operators operate on two operands.
 
@@ -67,7 +67,7 @@ Example
             return 0;
         }
 
-###🔹 3. Ternary Operator
+### 🔹 3. Ternary Operator
 
 The ternary operator is the only operator in C that works with three operands.
 
@@ -85,7 +85,7 @@ Example
         return 0;
     }
 
-###🔹 4. Logical Operators
+### 🔹 4. Logical Operators
 
 Logical operators are used to combine or invert conditions.
 
@@ -112,7 +112,7 @@ Example
         return 0;
     }
 
-###🔹 5. Relational Operators
+### 🔹 5. Relational Operators
 
 Relational operators compare two values and return 1 (true) or 0 (false).
 
@@ -138,7 +138,7 @@ Example
         return 0;
     }
 
-###🔹 6. Operator Precedence and Associativity
+### 🔹 6. Operator Precedence and Associativity
 📌 Operator Precedence
 
 Precedence determines which operator is evaluated first when multiple operators appear in an expression.
@@ -185,7 +185,7 @@ int main() {
 
 ✔ Assignment operator (=) has right-to-left associativity
 
-##📌 Tip
+## 📌 Tip
 
 To avoid confusion:
 
@@ -194,7 +194,7 @@ result = (a + b) * c;
 
 ✔ Parentheses always override precedence
 
-##🧠 Key Learnings
+## 🧠 Key Learnings
 
 Operator precedence controls evaluation order.
 
