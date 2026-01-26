@@ -49,8 +49,8 @@ The following concepts were covered and implemented using practical C programs:
   ```c
   condition ? expression1 : expression2;
 
-##🧪 Programs Implemented
-###🔹 1. Area Calculation Using switch–case
+## 🧪 Programs Implemented
+### 🔹 1. Area Calculation Using switch–case
 
 Concepts Used:
 
@@ -81,7 +81,7 @@ break prevents fall-through.
 
 default handles invalid input.
 
-###🔹 2. Income Tax Calculation Using if–else if–else
+### 🔹 2. Income Tax Calculation Using if–else if–else
 
 Concepts Used:
 
@@ -107,7 +107,7 @@ Type conversion is important in embedded systems to avoid precision issues.
 
 Logical operators (&&) for range checks.
 
-###🔹 3. Voting Eligibility Using if
+### 🔹 3. Voting Eligibility Using if
 
 Concepts Used:
 
@@ -125,7 +125,7 @@ Minimal decision logic.
 
 Suitable for validation checks in embedded applications.
 
-###🔹 4. Number Comparison with Input Validation
+### 🔹 4. Number Comparison with Input Validation
 
 Concepts Used:
 
@@ -153,7 +153,7 @@ Floating-point values may behave differently when cast to integers.
 
 Conditional logic helps handle edge cases.
 
-##🛠 Embedded C Practices Followed
+## 🛠 Embedded C Practices Followed
 
 Used fflush(stdout) to ensure prompt output (important in embedded debugging)
 
@@ -163,7 +163,7 @@ Defensive programming with input validation
 
 Structured and readable decision logic
 
-##✅ Conclusion
+## ✅ Conclusion
 
 Through these programs, I gained hands-on experience with decision-making constructs in Embedded C, which are fundamental for:
 
