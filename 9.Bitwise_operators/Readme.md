@@ -13,7 +13,7 @@ All programs are written and tested using standard C libraries.
 | Operator | Name        | Description |
 |--------|------------|-------------|
 | `&`    | AND         | Sets bit to 1 only if both bits are 1 |
-| `|`    | OR          | Sets bit to 1 if at least one bit is 1 |
+| `\|`   | OR          | Sets bit to 1 if at least one bit is 1 |
 | `^`    | XOR         | Sets bit to 1 if bits are different |
 | `~`    | NOT         | Inverts all bits (1 → 0, 0 → 1) |
 
