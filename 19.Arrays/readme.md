@@ -19,7 +19,7 @@ An **array** is a collection of elements of the same data type stored in contigu
 
 Example:
 
-int arr[5];
+    int arr[5];
 
 Each element can be accessed using an index:
 
@@ -29,7 +29,7 @@ arr[0], arr[1], arr[2], ...
 
 In this program, the size of arrays is provided by the user:
 
-int arr1[n1], arr2[n2];
+    int arr1[n1], arr2[n2];
 
 This feature is called Variable Length Arrays (VLA), introduced in C99.
 
@@ -37,10 +37,9 @@ This feature is called Variable Length Arrays (VLA), introduced in C99.
 
 The size of the array is calculated using:
 
-'''c
-s1 = sizeof(arr1) / sizeof(int);
-s2 = sizeof(arr2) / sizeof(int);
-'''c
+    s1 = sizeof(arr1) / sizeof(int);
+    s2 = sizeof(arr2) / sizeof(int);
+
 
 Explanation:
 
@@ -54,7 +53,7 @@ Dividing them gives the number of elements in the array
 
 Arrays are passed to functions using pointers.
 
-void swap(int *arr1, int *arr2, int s1, int s2);
+    void swap(int *arr1, int *arr2, int s1, int s2);
 
 Here:
 
@@ -67,8 +66,8 @@ arr2 → pointer to second array
 The program swaps elements between the two arrays index by index.
 
 If the arrays have different sizes, swapping happens only until the minimum size.
-
-int s = s1 > s2 ? s2 : s1;
+    
+    int s = s1 > s2 ? s2 : s1;
 
 This ensures the program does not access memory outside the array bounds.
 
